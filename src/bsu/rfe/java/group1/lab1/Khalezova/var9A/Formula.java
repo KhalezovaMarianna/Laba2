@@ -1,7 +1,6 @@
 package bsu.rfe.java.group1.lab1.Khalezova.var9A;
 public class Formula {
     private Double sum;
-    private double count;
     // Формула №1 для рассчѐта
     public Double calculate1(Double x, Double y, Double z) {
         return (Math.sin(Math.sin(y)+Math.exp(Math.cos(y))+z*z))*Math.pow(Math.sin(3.14*y*y)+Math.log(x*x),1/4);
