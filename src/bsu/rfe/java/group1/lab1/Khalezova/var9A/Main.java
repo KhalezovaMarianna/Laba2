@@ -79,7 +79,7 @@ public class Main extends JFrame {
         textFieldZ.setMaximumSize(textFieldZ.getPreferredSize());
         Box hboxVariables = Box.createHorizontalBox();
         hboxVariables.setBorder(
-                BorderFactory.createLineBorder(Color.RED));//создание кнопок
+                BorderFactory.createLineBorder(Color.RED));
         hboxVariables.add(labelForX);
         hboxVariables.add(Box.createHorizontalStrut(10));
         hboxVariables.add(textFieldX);
